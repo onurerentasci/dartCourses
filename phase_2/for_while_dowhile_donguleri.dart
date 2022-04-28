@@ -45,16 +45,19 @@ main(List<String> args) {
     print("$isim");
   }
 
+  // for
   for (int i = 0; i < isimListesi.length; i++) {
     print("Okunan eleman : " + isimListesi[i]);
   }
 
+  //while
   int sayac = 0;
   while (sayac < 3) {
     print("Okunan sayı değeri : $sayac");
     sayac++;
   }
 
+  //do while
   int sayac2 = 0;
   do {
     print("Okunan sayac değeri : $sayac2");
@@ -80,11 +83,10 @@ main(List<String> args) {
   distakiDongu:
   for (int i = 1; i <= 10; i++) {
     for (int j = 0; j <= 10; j++) {
-      
       if (i == 2) {
         break distakiDongu; // ilk döngüyü isimlendirdikten sonra istediğimiz şekilde kullanabiliriz
       }
-      print("$i * $j = ${i * j}"); 
+      print("$i * $j = ${i * j}");
     }
   }
 }
