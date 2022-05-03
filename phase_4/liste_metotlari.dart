@@ -19,4 +19,19 @@ main(List<String> args) {
   }
 
   print("Sayılar 2 boş mu? :  " + sayilar2.isEmpty.toString());
+
+  if (sayilar.contains(51)) {
+    // contains eleman aramak için kullanılır
+    print("Lİstede 51 var");
+  } else {
+    print("Listede 51 yok");
+  }
+  print(sayilar);
+
+  print(sayilar.elementAt(2)); // sayılar içinden 2. indexteki elemanı getir
+
+  print(sayilar.indexOf(24)); // 24 sayısının indexi ne?
+
+  sayilar.shuffle(); // listedeki elemanların yerini rastgele hale getiriyor
+  print(sayilar);
 }
