@@ -19,4 +19,5 @@ main(List<String> args) {
   for (String s1 in isimler) {
     print("isim: $s1");
   }
+  
 }

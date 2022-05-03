@@ -34,4 +34,5 @@ main(List<String> args) {
 
   sayilar.shuffle(); // listedeki elemanların yerini rastgele hale getiriyor
   print(sayilar);
+  
 }
